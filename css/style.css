@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ 
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section2 {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+.text-vcenter h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+#home{
+  /*opacity: 0.8; 
+  filter: alpha(opacity=80);*/
+  background: url(../images/cuse.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home .panel {
+  opacity: 0.8;
+}
+#picpage {
+  background: url(../images/DSCN1240.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8; 
+  filter: alpha(opacity=80);
+}
+video {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+#fonttitle 
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+#fontlist
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+#thefloor{
+
+  background: url(../images/max.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#thefloor .panel {
+  opacity: 0.8;
+}
+#thecommunity
+{
+  background-color: #99B2B7;
+}
+#thefloormembers
+{
+  background-color: #D5DED9;
+}
+#information
+{
+  background-color: #948C75;
+}
+a{
+  color: #777;
+
+}
+#profpic
+{
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+
+}
+}
+
